@@ -1,3 +1,4 @@
+#single inheritance 
 class p:
     def m1(self):
         print('parent method')
