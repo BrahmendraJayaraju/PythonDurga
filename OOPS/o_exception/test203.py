@@ -1,7 +1,7 @@
 
 f=None
 try:
-    f=open('/Users/brahmendrajayaraju/Desktop/abcd.txt','r')
+    f=open('/Users/brahmendrajayaraju/PycharmProjects/PythonDurga/files/abc.txt','r')
 except:
     print('some problrm with file opening')
 else:

@@ -1,0 +1,26 @@
+31/01/25 18:5044  PM:INFO:new request came 
+31/01/25 18:5049  PM:ERROR:division by zero
+Traceback (most recent call last):
+  File "/Users/brahmendrajayaraju/PycharmProjects/PythonDurga/OOPS/p_logs/test236.py", line 16, in <module>
+    print('the result :',x/y)
+                         ~^~
+ZeroDivisionError: division by zero
+31/01/25 18:5049  PM:INFO:request processing completed
+31/01/25 18:5153  P:INFO:new request came 
+31/01/25 18:5156  P:INFO:request processing completed
+31/01/25 18:5213  P:INFO:new request came 
+31/01/25 18:5216  P:ERROR:division by zero
+Traceback (most recent call last):
+  File "/Users/brahmendrajayaraju/PycharmProjects/PythonDurga/OOPS/p_logs/test236.py", line 16, in <module>
+    print('the result :',x/y)
+                         ~^~
+ZeroDivisionError: division by zero
+31/01/25 18:5216  P:INFO:request processing completed
+31/01/25 18:5233  PM:INFO:new request came 
+31/01/25 18:5237  PM:ERROR:division by zero
+Traceback (most recent call last):
+  File "/Users/brahmendrajayaraju/PycharmProjects/PythonDurga/OOPS/p_logs/test236.py", line 16, in <module>
+    print('the result :',x/y)
+                         ~^~
+ZeroDivisionError: division by zero
+31/01/25 18:5237  PM:INFO:request processing completed
