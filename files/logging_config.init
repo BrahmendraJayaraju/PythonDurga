@@ -1,0 +1,27 @@
+[loggers]
+keys=root,brahmendrafile
+
+[handlers]
+keys=filehandler
+
+[formatters]
+keys=sampleformatter
+
+[logger_root]
+level=DEBUG
+handlers=filehandler
+
+[logger_brahmendrafile]
+level=DEBUG
+handlers=filehandler
+qualname=brahmendrafile
+
+[handler_filehandler]
+class=FileHandler
+level=DEBUG
+formatter=sampleformatter
+args=('/Users/brahmendrajayaraju/PycharmProjects/PythonDurga/files/test254.log', 'w')
+
+[formatter_sampleformatter]
+format=%(asctime)s:%(name)s:%(levelname)s:%(message)s
+datefmt=%d/%m/%y %I:%M:%S %p
