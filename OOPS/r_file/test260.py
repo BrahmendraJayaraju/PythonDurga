@@ -1,5 +1,6 @@
 #w,a,rt,wt,a+,x
-#write in file 
+#write in file
+
 f=open('/Users/brahmendrajayaraju/PycharmProjects/PythonDurga/files/test260.txt','w')
 
 f.write('brahmendra\t')
