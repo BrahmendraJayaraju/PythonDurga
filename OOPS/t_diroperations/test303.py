@@ -3,9 +3,10 @@
 import os,time
 
 print('execute java program: first compile ')
-os.system('Javac /Users/brahmendrajayaraju/PycharmProjects/PythonDurga/files/apple.java')
+c='Javac apple.java'
+os.system(c)
 print('java program executed')
-os.system('Java /Users/brahmendrajayaraju/PycharmProjects/PythonDurga/files/apple')
+os.system('Java apple')
 
 
 print('clear screen after 7 seconds ')
