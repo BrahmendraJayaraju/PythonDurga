@@ -25,3 +25,7 @@ print('x:',x)
 
 
 print('50th percentile of x:',np.percentile(x,50))
+print('30th percentile of x:',np.percentile(x,30))
+print('90th percentile of x:',np.percentile(x,90))
+print('30th percentile of x:',np.percentile(x,25))
+print('90th percentile of x:',np.percentile(x,75))
