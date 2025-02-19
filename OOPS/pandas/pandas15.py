@@ -6,9 +6,12 @@ import numpy as np
 x=np.array(['Tomato','Spinach','Nuts','Meat','Fish'])
 y=np.array([40,60,120,160,200])
 
-#
+
+
+#to print value on labels 
 for i,y in enumerate(y):
  plt.text(i,y,f"${y}",ha='center')
+
 
 plt.title('Item Price')
 plt.xlabel('Item')
