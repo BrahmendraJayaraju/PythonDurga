@@ -7,3 +7,6 @@ def pattern11(n):
             else:
                 print(' ',end=' ')
         print()        
+
+
+pattern11(5)

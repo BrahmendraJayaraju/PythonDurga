@@ -10,3 +10,4 @@ def pattern9(n):
         print()
         
                 
+pattern9(5)

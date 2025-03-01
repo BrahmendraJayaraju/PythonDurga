@@ -9,3 +9,4 @@ def cocoa(n):
                 print('$',end=' ')
         print()            
                 
+cocoa(5)

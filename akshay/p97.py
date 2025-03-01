@@ -9,3 +9,4 @@ def komaru(n):
                 print(' ',end=' ')
         print()            
                 
+komaru(5)

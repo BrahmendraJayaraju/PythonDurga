@@ -7,4 +7,7 @@ def pattern14(n):
                 k=k+1
             else:
                 print(' ',end=' ')
-        print()        
+        print()
+
+
+pattern14(5)

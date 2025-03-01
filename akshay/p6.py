@@ -1,6 +1,6 @@
 print("class is happening")
 print("announcement for blood")
-intrested="no"
+intrested="yes"
 if intrested=="yes":
     print("go to the camp")
     print("give blood")

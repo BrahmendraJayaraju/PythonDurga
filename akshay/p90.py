@@ -7,4 +7,8 @@ def pattern13(n):
                 k=k+1
             else:
                 print(' ',end=' ')
-        print()        
+        print()
+
+
+
+pattern13(5)

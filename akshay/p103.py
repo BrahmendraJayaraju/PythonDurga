@@ -9,3 +9,4 @@ def nana(n):
         print()        
                 
             
+nana(5)

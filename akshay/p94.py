@@ -9,3 +9,4 @@ def pattern17(n):
                 print(' ',end=' ')
         print()        
         
+pattern17(5)

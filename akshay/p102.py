@@ -8,4 +8,4 @@ def lulu(n):
                 print(' ',end=' ')
         print()        
                 
-            
+lulu(5)

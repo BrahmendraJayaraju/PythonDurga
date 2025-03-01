@@ -8,4 +8,4 @@ def pattern18(n):
             else:
                 print(' ',end=' ')
         print()        
-        
+pattern18(5)

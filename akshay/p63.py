@@ -1,15 +1,18 @@
-def ispal(name):
-    n=len(name)
-    for i in range(0,n//2+1):
-        if name[i]!=name[n-1-i]:
-         return False
+def palcheck(str):
+    n=len(str)
+    print(n)
+    end=round(n//2)
+    print(end)
+
+    for i in range(0,end):
+
+        if str[i]==str[len(str)-1-i]:
+            print(i,str[i])
         else:
-            return True
+            return False
+    return True
 
-if ispal("malayalam"):
-    print('yes its')
+if palcheck('madam'):
+    print('palindeome')
 else:
-     print('no its not')
-     
-
-        
+    print('not palindeome')

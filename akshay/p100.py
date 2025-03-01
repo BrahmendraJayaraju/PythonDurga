@@ -8,3 +8,4 @@ def dodo(n):
         print()        
                 
             
+dodo(5)

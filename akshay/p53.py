@@ -4,7 +4,7 @@ def inputheterolist(n):
     temp=[]
     for i in range (n):
         
-        datatype=input('enter the datatype')
+        datatype=input('enter the datatype:')
         datatype=datatype.lower()
         
         if datatype.startswith('int'):
@@ -76,6 +76,11 @@ def inputtodict(n):
         value=input('enter the value')
         temp[key]=value
     return dict(temp)
+
+
+print(inputheterolist(3))
+
+
 
 
 

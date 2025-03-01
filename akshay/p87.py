@@ -8,5 +8,8 @@ def pattern10(n):
             else:
                 print(' ',end=' ')
         print()
+
+
+pattern10(5)
         
                 

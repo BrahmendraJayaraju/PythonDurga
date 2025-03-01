@@ -9,3 +9,4 @@ def komugi(n):
                 print(' ',end=' ')
         print()            
                 
+komugi(5)
