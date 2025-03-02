@@ -1,6 +1,4 @@
 class student2:
-
-
     def __init__(self):
         self.name='brahmendra'
         self.rollno='212720597'
@@ -15,7 +13,7 @@ a1=student2()
 a1.talk()
 
 print('.................')
-print(a1.rollno)
 print(a1.name)
+print(a1.rollno)
 print(a1.marks)
 
